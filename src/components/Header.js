@@ -24,7 +24,7 @@ const Header = () => {
       <h1 className="text-xl font-medium">Tournament</h1>
       <div className="flex items-center space-x-2">
         <img
-          src="/api/placeholder/32/32"
+          src="https://theshreekrishna.com/wp-content/uploads/2024/05/krishna-images-dp.webp"
           alt="User avatar"
           className="w-8 h-8 rounded-full"
         />

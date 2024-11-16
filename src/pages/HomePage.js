@@ -1,10 +1,10 @@
 import React from "react";
-import Sidebar from "./Sidebar";
-import EmptyState from "./EmptyState";
-import Header from "./Header"
+import Sidebar from "../components/Sidebar";
+import EmptyState from "../components/EmptyState";
+import Header from "../components/Header"
 
 // Main Layout Component
-const TournamentPage = () => {
+const HomePage = () => {
     return (
       <div className="flex h-screen">
         <Sidebar />
@@ -17,4 +17,4 @@ const TournamentPage = () => {
   };
 
 
-export default TournamentPage;
+export default HomePage;
