@@ -1,22 +1,6 @@
 // Header.js
 import React from 'react';
 
-// const Header = () => {
-//   return (
-//     <div style={{ display: 'flex', justifyContent: 'space-between', padding: '10px 20px', background: '#fff', boxShadow: '0 1px 5px rgba(0,0,0,0.1)' }}>
-//       <h2>Tournament</h2>
-//       <div>
-//         <span>Roushan Kumar</span>
-//         <img 
-//           src="https://via.placeholder.com/40" 
-//           alt="Profile" 
-//           style={{ width: '40px', height: '40px', borderRadius: '50%', marginLeft: '10px' }} 
-//         />
-//       </div>
-//     </div>
-//   );
-// };
-
 // Header Component
 const Header = () => {
   return (
