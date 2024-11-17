@@ -43,13 +43,13 @@ const TournamentForm = () => {
     setCurrentStep(prev => Math.max(prev - 1, 1));
   };
 
-  const handleSubmit = (finalStepData ,e ) => {
-    
+  const handleSubmit = (finalStepData, e) => {
+    e.preventDefault();
     const finalFormData = {
       ...formData,
       ...finalStepData
     };
-    e.preventDefault();
+    
     console.log('Form submitted:', finalFormData);
     // Handle form submission logic here
   };
@@ -306,7 +306,7 @@ const TournamentForm = () => {
           </button>
           <button
             type="button"
-            onClick={() => handleSubmit(stepData)}
+            onClick={(e) => handleSubmit(stepData, e)}
             className="flex items-center px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600"
           >
             Submit
